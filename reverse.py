@@ -3,7 +3,14 @@ import argparse
 def reverse_string(word):
 
 	# list slicing approach
-	result = word[::-1]
+	# result = word[::-1]
+
+	# alternative approach without list slicing approach
+	index = len(word)-1
+	result = ''
+	while (index) >= 0:
+		result += word[index]
+		index -= 1
 
 	return result
 
@@ -51,6 +58,9 @@ def main():
 	# reverse string of words from command line argument
 	elif args.w:
 		result = reverse_sentence(args.string)
+		print(result)
+	else: # in the case that user forgets to enter parameter default to the standard reverse function
+		result = reverse_string(args.string)
 		print(result)
 
 

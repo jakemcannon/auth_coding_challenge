@@ -7,7 +7,7 @@ from reverse import reverse_sentence
 class stringTest(unittest.TestCase):
 
 	def test_reverse_string(self):
-		self.assertEqual(reverse_string('dog'),'god')
+		self.assertEqual(reverse_string('hello'),'olleh')
 
 
 	def test_reverse_sentence(self):
