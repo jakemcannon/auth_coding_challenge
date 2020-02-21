@@ -18,7 +18,7 @@ If you would like to reverse the word(s) in a filename include <code>i "FILE_NA
 
 **Single string mode**
 
-``````python
+```
 python3 "Hello" -r
 ```
 
@@ -54,3 +54,16 @@ Run tests in the same directory with:
 python3 reverse_test.py
 ```
 
+
+
+
+
+Hi Sarah,
+
+Thank you for considering me as a candidate!
+
+I have completed the challenge and just submitted the files. Additionally, here is github link of the project.
+
+
+
+Thank to
